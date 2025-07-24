@@ -48,7 +48,6 @@ const client = createPublicClient({
   transport: http(),
 })
 
-// --- Helpers ---
 function formatFixedPoint(value: bigint, decimals: number = 8): string {
   const multiplier = 10n ** BigInt(decimals)
   const integerPart = value / multiplier
