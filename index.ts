@@ -6,7 +6,7 @@ const app = express()
 const port = 3000
 
 const kaia = defineChain({
-  id: 203,
+  id: 8217,
   name: 'Kaia',
   nativeCurrency: {
     name: 'Kaia',
